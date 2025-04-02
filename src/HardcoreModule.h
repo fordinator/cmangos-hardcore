@@ -162,7 +162,7 @@ namespace cmangos_module
         const HardcoreModuleConfig* GetConfig() const override;
 
         void OnWorldPreInitialized() override;
-        void OnWorldInitialize() override;
+        void OnInitialize() override;
 
         // Player hooks
         void OnCharacterCreated(Player* player) override;
