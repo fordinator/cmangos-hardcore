@@ -1137,7 +1137,7 @@ namespace cmangos_module
         }
     }
 
-    void HardcoreModule::OnInitialize()
+    void HardcoreModule::OnWorldInitialize()
     {
         if (GetConfig()->enabled)
         {
